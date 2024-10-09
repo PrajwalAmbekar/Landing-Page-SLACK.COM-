@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Of Slack.com</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Nav bar-->
+
+    <header id="header"
+        class="fixed lg:container w-4/5 top-0 left-0 lg:flex items-center justify-between py-4 px-10 ml-28 bg-white mt-2 rounded-full z-50  transform transition-transform duration-300 font-font">
+        <div class="mr-0">
+            <a href="#">
+                <img src="./Images/Slack logo.png" alt="Logo">
+            </a>
+        </div>
+        <div id="nav-menu" class=" hidden lg:flex items-center mr-44">
+            <div>
+                <button class="flex items-center mr-4 gap-1">
+                    <li class="list-none  font-medium text-sm ">Features</li>
+                    <span><i class="fa-solid fa-angle-down text-xs font-extrabold"></i></span>
+                </button>
+            </div>
+            <div>
+                <button class="flex items-center mr-4 gap-1">
+                    <li class="list-none font-medium text-sm">Solutions</li>
+                    <span><i class="fa-solid fa-angle-down text-xs font-medium"></i></span>
+                </button>
+            </div>
+            <div>
+                <a href="#" class="mr-4 font-medium text-sm hover:underline hover:decoration-1">Enterprise</a>
+            </div>
+            <div>
+                <button class="flex items-center mr-4 gap-1">
+                    <li class="list-none font-medium text-sm">Resources</li>
+                    <span><i class="fa-solid fa-angle-down text-xs font-medium"></i></span>
+                </button>
+            </div>
+            <div>
+                <a href="#" class="mr-4 font-medium text-sm hover:underline hover:decoration-1">Pricing</a>
+            </div>
+        </div>
+        <div id="sign-up" class="flex gap-8 items-center">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#" class="font-medium text-sm hover:underline hover:decoration-1">Sign-In</a>
+            <div class="flex gap-6">
+                <button
+                    class="border p-3 pl-5 pr-5 border-fuchsia-800 text-fuchsia-800 rounded-md text-sm font-bold hover:border-fuchsia-950 hover:border-2 hover:transition hover:delay-500 hover:duration-200 transition">TALK
+                    TO SALES</button>
+                <button
+                    class="border-2 p-3 pl-5 pr-5 bg-fuchsia-900 border-fuchsia-800 text-white rounded-md text-sm font-bold hover:bg-fuchsia-950 hover:transition-colors hover:duration-75">GET
+                    STARTED</button>
+            </div>
+        </div>
+    </header>
+    <!--Main Content-->
+    <main class="mt-20" >
+        <section class="w-auto flex flex-col bg-[url('/Images/BGIMG.jpg')] bg-no-repeat bg-cover pb-12 pl-16 pr-16">
+            <div class="text-5xl font-bold text-center font-font">
+                Made for people. <span class="text-fuchsia-900"> Built for productivity.</span>
+            </div>
+            <div class="flex justify-center mt-6 gap-2">
+                <button
+                    class="border-2 p-3 pl-8 pr-8 bg-fuchsia-900 border-fuchsia-800 text-white rounded-md text-lg font-semibold  hover:bg-fuchsia-950 hover:transition-colors hover:duration-75">GET
+                    STARTED</button>
+                <button
+                    class="border p-3 pl-10 pr-10 border-fuchsia-800 text-fuchsia-800 rounded-md text-base font-semibold hover:border-fuchsia-950 hover:border-2 hover:transition hover:delay-500 hover:duration-200 transition">FIND
+                    YOUR PLAN <span><i class="fa-solid fa-arrow-right"></i></span> </button>
+            </div>
+            <div class="flex justify-center mt-5 text-lg font-semibold gap-3">
+                Slack is free to try<span class=" text-lg font-normal"> for as long as you like</span>
+            </div>
+            <div class="flex justify-center items-center gap-12 h-6 mt-10 text-sm bg-cover ">
+                <img src="./Images/img1.png" alt="image1">
+                <img src="./Images/img2.png" alt="image2" class="h-11">
+                <img src="./Images/img3.png" alt="image3">
+                <img src="./Images/img4.png" alt="image4">
+                <img src="./Images/img5.png" alt="image5">
+                <img src="./Images/img6.png" alt="image6">
+            </div>
+            <div class="mt-12 flex justify-center w-fit pr-60 pl-60">
+                <div>
+                    <video src="./Images/video1.webm " autoplay muted loop class="border rounded-lg"></video>
+                </div>
+            </div>
+            <div class="flex mt-24 pr-24 pl-24 gap-24 h-auto ">
+                <div class="w-2/4">
+                    <video src="./Images/video2.webm " autoplay muted loop class="border-none"></video>
+                </div>
+                <div class="p-4 flex flex-col w-2/4">
+                    <h1 class="text-6xl font-bold ">Move faster with your tools in one place</h1>
+                    <p class="mt-4 text-xl font-normal">Automate away routine tasks with the power of generative AI and
+                        simplify your workflow with all your favourite apps ready to go in Slack.</p>
+                    <a href="#" class="pt-4 text-lg font-normal text-blue-400 flex gap-3 hover:underline hover:decoration-blue-500">Learn more about the Slack
+                        platform <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span></a>
+                </div>
+            </div>
+            <div class="flex mt-12 pr-24 pl-24 gap-24 h-auto ">
+                <div class="p-4 flex flex-col w-2/4">
+                    <h1 class="text-6xl font-bold ">Choose how you want to work</h1>
+                    <p class="mt-4 text-xl font-normal">In Slack, you’ve got all the flexibility to work when, where and
+                        how it’s best for you. You can easily chat, send audio and video clips, or join a huddle to talk
+                        things through live.</p>
+                    <a href="#" class="pt-4 text-lg font-normal text-blue-400 flex gap-3 hover:underline hover:decoration-blue-500""> Learn more about flexible
+                        communication<span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span></a>
+                </div>
+                <div class="w-2/4"><video src="./Images/video3.webm " autoplay muted loop class="border-none"></video>
+                </div>
+            </div>
+            <div class="flex mt-12 pr-24 pl-24 gap-24 h-auto">
+                <div class="w-2/4"><video src="./Images/video4.webm " autoplay muted loop class="border-none"></video>
+                </div>
+                <div class="p-4 flex flex-col w-2/4">
+                    <h1 class="text-6xl font-bold ">Bring your team together</h1>
+                    <p class="mt-4 text-xl font-normal">At the heart of Slack are channels: organised spaces for
+                        everyone and everything that you need for work. In channels, it’s easier to connect across
+                        departments, offices, time zones and even other companies.</p>
+                    <a href="#" class="pt-4 text-lg font-normal text-blue-400 flex gap-3 hover:underline hover:decoration-blue-500" ">Learn more about
+                        channels<span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span></a>
+                </div>
+            </div>
+        </section>
+        <section class="w-auto flex flex-col mt-16 h-h  pt-5">
+            <div class="flex justify-between pl-56 pr-56">
+                <img src="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-office-building.png"
+                    srcset="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-office-building.png 1x, https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-office-building@2x.png 2x"
+                    alt="IMG1">
+                <img class="w-28"
+                    src="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-skyline.png"
+                    srcset="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-skyline.png 1x, https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-skyline@2x.png 2x"
+                    alt="IMG2">
+            </div>
+            <div class="text-5xl font-bold text-center">Teams large and small rely on Slack</div>
+            <div class="flex items-center justify-between pl-36 pr-72 mt-2">
+                <img src="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-chart-upward-trend.png"
+                    srcset="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-chart-upward-trend.png 1x, https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-chart-upward-trend@2x.png 2x"
+                    alt="IMG3">
+                <div class="text-lg font-normal pl-36">Slack securely scales up to support collaboration at
+                    the world’s biggest companies.
+                </div>
+                <img src="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-handshake.png"
+                    srcset="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-handshake.png 1x, https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-handshake@2x.png 2x"
+                    alt="IMG4">
+            </div>
+            <div class="flex justify-between mt-2 pl-72 pr-48">
+                <img class="w-28"
+                    src="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-lock.png"
+                    srcset="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-lock.png 1x, https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-lock@2x.png 2x"
+                    alt="IMG5">
+                <div class="flex gap-2">
+                    <button
+                        class="py-4 pl-8 pr-8 border bg-fuchsia-900 border-fuchsia-800 text-white rounded-md text-lg font-semibold hover:bg-fuchsia-950 hover:transition-colors hover:duration-75">MEET
+                        SLACK FOR ENTERPRICE</button>
+                    <button
+                        class="py-4 pl-6 pr-6 border border-fuchsia-800 text-fuchsia-800 rounded-md text-base font-semibold hover:border-fuchsia-950 hover:border-2 hover:transition hover:delay-500 hover:duration-200 transition">TALK
+                        TO SALES</button>
+                </div>
+                <img src="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-woman-technologist.png"
+                    srcset="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-woman-technologist.png 1x, https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-woman-technologist@2x.png 2x"
+                    alt="IMG6">
+            </div>
+            <div class="flex justify-evenly items-center mt-8 pl-20">
+                <div>
+                    <h1 class="text-7xl  font-bold text-fuchsia-900">85%</h1>
+                    <p>of users say that Slack has <br> improved communication*</p>
+                </div>
+                <div>
+                    <h1 class="text-7xl  font-bold text-fuchsia-900">86%</h1>
+                    <p>feel that their ability to work <br>remotely has improved*</p>
+                </div>
+                <div>
+                    <h1 class="text-7xl  font-bold text-fuchsia-900">88%</h1>
+                    <p>feel more connected to their <br> teams*</p>
+                </div>
+            </div>
+        </section>
+        <section class="w-auto mt-4 h-auto">
+            <div class="flex  items-center gap-5">
+                <div class="w-2/4">
+                    <video src="./Images/video5.mp4" autoplay muted loop
+                        class=" rounded-tr-full rounded-br-full"></video>
+                </div>
+                <div class="flex flex-col w-2/4">
+                    <h1 class="text-3xl italic font-light">‘Many technology employees were gravitating naturally to
+                        Slack. So we followed our users to what
+                        has become one of our most important tools.’</h1>
+                    <p class="text-lg font-semibold mt-2">Matt Beal</p>
+                    <p class="text-sm mt-1">Director of Technology Strategy and Architecture, Vodafone</p>
+                    <a href="#" class="text-lg font-normal text-blue-400 flex gap-3 mt-8 hover:underline hover:decoration-blue-500">See more customer
+                        stories<span><i class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+
+            </div>
+            <p class="mt-16 text-center font-light">* Weighted average. Based on 2,707 survey responses from weekly
+                Slack users in the US, UK, Australia and Canada with a ± 2% margin of error at 95% CI (December 2021).
+            </p>
+        </section>
+        <section class="bg-bg-3 h-h1 mt-6 pt-10">
+            <p class="text-4xl text-center font-bold">Take a deeper dive into a new way to work</p>
+            <div class="flex items-center mt-8 gap-3 w-full pl-36">
+                <a href="#">
+                    <div class="w-72 bg-white pt-3 pl-3 pb-3 pr-3  scale-100 shadow-sm shadow-slate-400   hover:transition-transform hover:scale-105 hover:duration-700 " >
+                        <img src="./Images/card1.png" alt="" srcset="">
+                        <p class="text-sm font-light mt-4">Event</p>
+                        <h1 class="text-2xl font-bold">Ready for the future of AI in Slack?</h1>
+                        <div class="flex mt-24 items-center">
+                            <a href="#" class="pr-20 text-txt-clr">WATCH ON DEMAND</a>
+                            <i class="fa-solid fa-arrow-right-long text-xl text-txt-clr"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="w-72 bg-white pt-3 pl-3 pb-3 pr-3 shadow-sm shadow-slate-400  transform hover:transition-transform hover:scale-105 hover:duration-700">
+                        <img src="./Images/card2.jpg" alt="" srcset="">
+                        <p class="text-sm font-light mt-4">Blog</p>
+                        <h1 class="text-2xl font-bold">Ten features to know (and-love) on Slack's tenth birthday</h1>
+                        <div class="flex mt-16 items-center">
+                            <a href="#" class="pr-36 text-txt-clr">READ MORE</a>
+                            <i class="fa-solid fa-arrow-right-long text-xl text-txt-clr"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="w-72 bg-white pt-3 pl-3 pb-3 pr-3 shadow-sm shadow-slate-400  transform hover:transition-transform hover:scale-105 hover:duration-700">
+                        <img src="./Images/card3.jpg" alt="" srcset="">
+                        <p class="text-sm font-light mt-4">Customer story</p>
+                        <h1 class="text-2xl font-bold">How OpenAI expands ChatGPT with Slack </h1>
+                        <div class="flex mt-24 items-center">
+                            <a href="#" class="pr-36 text-txt-clr">READ MORE</a>
+                            <i class="fa-solid fa-arrow-right-long text-xl text-txt-clr"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="w-72 bg-white pt-3 pl-3 pb-3 pr-3 shadow-sm shadow-slate-400  transform hover:transition-transform hover:scale-105 hover:duration-700">
+                        <img src="./Images/card4.jpg" alt="" srcset="">
+                        <p class="text-sm font-light mt-4">Webinar</p>
+                        <h1 class="text-2xl font-bold">Top Slack tips to boost productivity</h1>
+                        <div class="flex mt-24 items-center">
+                            <a href="#" class="pr-36 text-txt-clr">WATCH NOW</a>
+                            <i class="fa-solid fa-arrow-right-long text-xl text-txt-clr"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="w-full h-96 bg-BG  bg-no-repeat bg-contain mb-12 pt-32 pb-32">
+            <div class="flex justify-center items-center flex-col ">
+                <h1 class="text-5xl font-bold text-white">See all that you can accomplish with Slack</h1>
+                <div class="flex gap-2 flex-row pt-6">
+                    <button
+                        class=" p-3 pl-8 pr-8 bg-white border-fuchsia-800 text-fuchsia-800 rounded-md text-sm font-semibold hover:border-white hover:scale-95 hover:duration-700">GET
+                        STARTED</button>
+                    <button
+                        class="py-4 pl-8 pr-8 border border-white text-white rounded-md text-base font-semibold hover:border-2  transition">TALK
+                        TO SALES</button>
+                </div>
+            </div>
+            <div class="flex justify-between items-center mt-32 ml-40 mr-40 group">
+                <div class="flex items-center flex-row gap-2 group-hover:text-blue-500 hover:cursor-pointer">
+                    <img class="group-hover:text-blue-500 " src="./Images/bx-globe (1).svg" alt="Language" srcset="">
+                    <span class="font-semibold text-base">Change region</span>
+                    <span class="font-semibold text-base"><i
+                            class="fa-solid fa-angle-down text-xs font-extrabold"></i></span>
+                </div>
+                <div class="flex items-center gap-8">
+                    <a href="#">
+                        <li class="list-none text-lg hover:text-blue-500"><i class="fa-brands fa-linkedin-in"></i></li>
+                    </a><a href="#">
+                        <li class="list-none text-lg hover:text-blue-500"><i class="fa-brands fa-instagram"></i></li>
+                    </a><a href="#">
+                        <li class="list-none text-lg hover:text-blue-500"><i class="fa-brands fa-facebook"></i></li>
+                    </a><a href="#">
+                        <li class="list-none text-lg hover:text-blue-500"><i class="fa-brands fa-x-twitter"></i></li>
+                    </a><a href="#">
+                        <li class="list-none text-lg hover:text-blue-500"><i class="fa-brands fa-youtube"></i></li>
+                    </a><a href="#">
+                        <li class="list-none text-lg hover:text-blue-500"><i class="fa-brands fa-tiktok"></i></li>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <hr class=" w-4/5 mx-auto mt-16">
+    </main>
+    <footer>
+        <div class="container grid grid-cols-6 ml-40 mt-16" >
+            <div>
+                <img src="./Images/logo.svg" alt="">
+            </div>
+            <div>
+                <ul>
+                    <li  class="uppercase text-base font-semibold">PRODUCT</li>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Watch demo</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Pricing</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Paid vs Free</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Accessibility</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Featured releases</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Change log </li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Status</li></a>
+                </ul>
+                <ul>
+                    <li class="text-balance font-semibold mt-10">WHY SLACK?</li>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Slack vs email</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Enterprise</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Small business</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Productivity</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Task management</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500">Scale</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Trust</li></a>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="uppercase text-base font-semibold">FEATURES</li>
+                    <a href=""><li class="pt-3 font-light text-sm">Channels</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Slack Connect</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Workflow Builder</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Messaging</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Huddles</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Canvas</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Lists</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Clips</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Search</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">File sharing</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Slack AI</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Security</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Enterprise Key Management</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Slack Atlas</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">See all features</li></a>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="uppercase text-base font-semibold">SOLUTIONS</li>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Engineering</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">IT</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Customer service</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Sales</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Project management</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Marketing</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Security</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Manufacture,<br> auto and energy</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Technology</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Media</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Financial services</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Retail</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Public sector</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Education</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Health and life sciences</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">See all solutions</li></a>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="uppercase text-base font-semibold">RESOURCES</li>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Help Centre</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">What’s new</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Resources library</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Slack blog</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Community</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Customer stories</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Events</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Developers</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Partners</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Partner offers</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Slack Marketplace</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Slack Certified</li></a>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="uppercase text-base font-semibold">COMPANY</li>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">About us</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Media kit</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Brand centre</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Careers</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Slack shop</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Engineering blog</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Design blog</li></a>
+                    <a href=""><li class="pt-3 font-light text-sm hover:text-blue-500 ">Contact us</li></a>
+                </ul>
+            </div>
+        </div>
+        <hr class=" w-4/5 mx-auto mt-12">
+        <div class="h-16 w-full mt-8 flex items-baseline">'
+            <div class="flex items-center pl-36">
+                <a href=""><li class="list-none flex  items-center gap-2 pr-5  font-light text-blue-600 text-base hover:text-blue-800 hover:underline" >Download Slack <span><img src="./Images/download.svg" alt="download"></span></li></a>
+                <a href=""><li class="list-none pr-5 text-sm font-light hover:text-blue-500">Privacy</li></a>
+                <a href=""><li class="list-none pr-5 text-sm font-light hover:text-blue-500">Terms</li></a>
+                <a href=""><li class="list-none pr-5 text-sm font-light hover:text-blue-500">Cookie preference</li></a>
+                <a href=""><li class="list-none flex items-center  pr-5 text-sm font-light hover:text-blue-500">Your privacy choices <span><img src="./Images/ccpa.svg" alt=""></span></li></a>
+            </div>
+            <div class="ml-56">
+                <p class="text-sm font-light">©2024 Slack Technologies, LLC, a Salesforce company. All rights reserved.</p>
+                <p class="text-sm font-light text-right">Various trademarks held by their respective owners.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
